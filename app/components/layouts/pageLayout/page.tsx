@@ -3,6 +3,9 @@ import NavBar from '../../organisms/navbar/page'
 import Menubar from '../../organisms/menubar/page'
 import Footer from '../../organisms/footer/page'
 import Image from 'next/image'
+import chatIcon from '../../../../public/chat.png'
+import Whatsapp from '../../../../public/WhatsApp_icon.png.webp'
+import quote from '../../../../public/quote.png'
 
 function PageLayout({ children }: any) {
     return (
@@ -12,11 +15,17 @@ function PageLayout({ children }: any) {
             <Footer />
             <div className='flex flex-col'>
                 <div className='fixed z-50 right-5 bottom-16 w-12 h-12 flex flex-col'>
-                    <Image className='mb-2' src="https://static-00.iconduck.com/assets.00/chat-icon-2048x2048-i7er18st.png" alt="" />
-                    <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" />
+                    <Image className='mb-2' src={chatIcon} alt="" width={0}
+                        height={0}
+                        sizes="100vw" />
+                    <Image src={Whatsapp} alt="" width={0}
+                        height={0}
+                        sizes="100vw" />
                 </div>
                 <div className=' fixed z-50 left-5 bottom-5 w-10 h-10 p-2 bg-white rounded-full drop-shadow'>
-                    <Image src="https://cdn-icons-png.flaticon.com/512/7257/7257795.png" alt="" />
+                    <Image src={quote} alt="" width={0}
+                        height={0}
+                        sizes="100vw" />
                 </div>
             </div>
 

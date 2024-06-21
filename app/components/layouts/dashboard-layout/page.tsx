@@ -2,13 +2,16 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import '@fortawesome/fontawesome-free/css/all.css'
+import user from '../../../../public/user.jpg'
 const DashboardLayout = ({ children }:any) => {
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <div className="w-64 bg-white shadow-md">
         <div className="p-4 font-bold text-lg border-b flex flex-row  items-center">
-          <Image src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" alt="Logo" className="h-12" />
+          <Image src={user}  alt="Logo" className="h-12 w-12"   width={0}
+  height={0}
+ />
           <div className='flex flex-col justify-center'>
           <p>User123 </p>
           <button className='primary text-sm'>Logout</button>
