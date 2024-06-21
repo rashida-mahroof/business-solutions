@@ -21,14 +21,14 @@ const imageUrls = [
     'https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-9-170x100.webp'
 ];
 const topContents = [
-    { image: {dubai} ,title:'Dubai Cityscape'},
-    { image:  {dubai}, title: 'Dubai Cityscape' },
-    { image:  {dubai}, title: 'Dubai Cityscape' },
+    { image: { dubai }, title: 'Dubai Cityscape' },
+    { image: { dubai }, title: 'Dubai Cityscape' },
+    { image: { dubai }, title: 'Dubai Cityscape' },
 ]
 const brands = [
 
 ]
-function Home({component}:any) {
+function Home({ component }: any) {
     return (
 
         <PageLayout>
@@ -39,24 +39,27 @@ function Home({component}:any) {
                     Chose Your Jurisdiction
                 </TitleMain>
                 <div className="container mx-auto">
-                <div className="flex flex-wrap -mx-4">
-  {topContents.map((data, index) => (
-    <div key={index} className="w-full sm:w-1/2 md:w-1/3 px-4 mb-2">
-      <div className="relative overflow-hidden transit">
-        <Image
-          src={dubai}
-          alt={data.title}
-          width={0}
-          height={0}
-          className="h-auto transition-transform duration-500 transform hover:scale-110"
-        />
-        <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100">
-          {data.title}
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+                    <div className="flex flex-wrap -mx-4 ">
+                        <div className="flex flex-wrap -mx-4">
+                            {topContents.map((data, index) => (
+                                <div key={index} className="group transition-transform w-full sm:w-1/2 md:w-1/3 px-4 mb-2">
+                                    <div className="relative overflow-hidden transit">
+                                        <Image
+                                            src={dubai}
+                                            alt={data.title}
+                                            width={0}
+                                            height={0}
+                                            className="h-auto transition-transform duration-500 transform group-hover:scale-110"
+                                        />
+                                        <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100">
+                                            {data.title}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                    </div>
 
                 </div>
 
