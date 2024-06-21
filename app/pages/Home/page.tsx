@@ -46,7 +46,7 @@ function Home({component}:any) {
                                 <div className="w-full sm:w-1/2 md:w-1/3 px-4 mb-2">
 
                                     <div className="relative overflow-hidden transit">
-                                        <Image src={data.image.dubai} alt={data.title} width={0}
+                                        <Image src={dubai} alt={data.title} width={0}
                                 height={0} className=" h-auto transition-transform duration-500 transform hover:scale-110" />
                                         <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100 ">
                                             {data.title}
