@@ -5,6 +5,7 @@ import Banner from '@/app/components/organisms/banner/page'
 import TitleMain from '@/app/components/atoms/titleMain/page'
 import PageLayout from '@/app/components/layouts/pageLayout/page'
 import BtnMain from '@/app/components/atoms/BtnMain/page'
+import Image from 'next/image'
 const topContents = [
     { image: 'https://www.shutterstock.com/image-photo/dubai-cityscape-modern-metro-railway-600nw-2414539851.jpg', title: 'Dubai Cityscape' },
     { image: 'https://www.shutterstock.com/image-photo/dubai-cityscape-modern-metro-railway-600nw-2414539851.jpg', title: 'Dubai Cityscape' },
@@ -31,7 +32,7 @@ function Home() {
                                 <div className="w-full sm:w-1/2 md:w-1/3 px-4 mb-2">
 
                                     <div className="relative overflow-hidden transit">
-                                        <img src={data.image} alt={data.title} className=" h-auto transition-transform duration-500 transform hover:scale-110" />
+                                        <Image src={data.image} alt={data.title} className=" h-auto transition-transform duration-500 transform hover:scale-110" />
                                         <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100 ">
                                             {data.title}
                                         </div>
@@ -47,7 +48,7 @@ function Home() {
                 <div className="container mx-auto">
                     <div className="flex flex-wrap -mx-4">
                         <div className='w-full sm:w-1 md:w-1/3 px-4'>
-                            <img src="https://png.pngtree.com/png-clipart/20231006/ourmid/pngtree-handsome-businessman-transparent-background-png-image_10194933.png" alt="" />
+                            <Image src="https://png.pngtree.com/png-clipart/20231006/ourmid/pngtree-handsome-businessman-transparent-background-png-image_10194933.png" alt="" />
                         </div>
 
                         <div className='w-full sm:w-1 md:w-2/3 px-4'>
@@ -89,17 +90,17 @@ function Home() {
 
                         <div className='w-full sm:w-1 md:w-1/2 px-4'>
                             <div className="flex flex-wrap mx-4">
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-1-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-2-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-3-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-4-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-5-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-6-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-7-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-7-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-8-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-9-170x100.webp" alt="" /></div>
-                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-6-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-1-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-2-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-3-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-4-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-5-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-6-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-7-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-7-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-8-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-9-170x100.webp" alt="" /></div>
+                                <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><Image src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-6-170x100.webp" alt="" /></div>
                             </div>
                         </div></div></div>
             </div>
