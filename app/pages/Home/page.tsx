@@ -86,6 +86,7 @@ function Home() {
                             </div>
 
                         </div>
+                        
                         <div className='w-full sm:w-1 md:w-1/2 px-4'>
                             <div className="flex flex-wrap mx-4">
                                 <div className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2"><img src="https://cdn-kkdpf.nitrocdn.com/zlccwFeVuEOWdpyRgkEBPXibOZRYyoTW/assets/images/optimized/rev-7416ce5/www.ragroup.ae/wp-content/uploads/2023/09/client-1-170x100.webp" alt="" /></div>
@@ -102,26 +103,77 @@ function Home() {
                             </div>
                         </div></div></div>
             </div>
+            <div className='my-16'>
+
+                            <TitleMain>
+                                Our Services
+                            </TitleMain>
+                            <div className="container mx-auto">
+                                <div className="flex flex-wrap mx-4">
+
+                                    
+                                        <div className="w-full flex sm:w-1/2 md:w-1/4 px-4  ">
+
+                                        <div className="relative overflow-hidden transit bg-white drop-shadow p-4">
+                                            <i className="fas fa-business-time  bg-white text-3xl pb-2 text-blue-900"></i>
+                                            <div className="text-lg font-bold transition-all duration-500 pb-2">
+                                                Incorporation
+                                            </div>
+                                            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellat dolor fugit corrupti rerum adipisci excepturi tempora, quaerat minima illo, eaque doloremque? Molestias quas enim quos nihil minus qui. Atque?</p>
+                                        </div>
+                                    </div>
+                                        <div className="w-full flex sm:w-1/2 md:w-1/4 px-4  ">
+
+                                        <div className="relative overflow-hidden transit bg-white drop-shadow p-4">
+                                            <i className="fas fa-business-time  bg-white text-3xl pb-2 text-blue-900"></i>
+                                            <div className="text-lg font-bold transition-all duration-500 pb-2">
+                                                Incorporation
+                                            </div>
+                                            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellat dolor fugit corrupti rerum adipisci excepturi tempora, quaerat minima illo, eaque doloremque? Molestias quas enim quos nihil minus qui. Atque?</p>
+                                        </div>
+                                    </div>
+                                        <div className="w-full flex sm:w-1/2 md:w-1/4 px-4  ">
+
+                                        <div className="relative overflow-hidden transit bg-white drop-shadow p-4">
+                                            <i className="fas fa-business-time  bg-white text-3xl pb-2 text-blue-900"></i>
+                                            <div className="text-lg font-bold transition-all duration-500 pb-2">
+                                                Incorporation
+                                            </div>
+                                            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellat dolor fugit corrupti rerum adipisci excepturi tempora, quaerat minima illo, eaque doloremque? Molestias quas enim quos nihil minus qui. Atque?</p>
+                                        </div>
+                                    </div>
+                                        <div className="w-full flex sm:w-1/2 md:w-1/4 px-4  ">
+
+                                        <div className="relative overflow-hidden transit bg-white drop-shadow p-4">
+                                            <i className="fas fa-business-time  bg-white text-3xl pb-2 text-blue-900"></i>
+                                            <div className="text-lg font-bold transition-all duration-500 pb-2">
+                                                Incorporation
+                                            </div>
+                                            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellat dolor fugit corrupti rerum adipisci excepturi tempora, quaerat minima illo, eaque doloremque? Molestias quas enim quos nihil minus qui. Atque?</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
             <div className='my-16 '>
-                <div className="container mx-auto  p-6  text-center">
-                   
+                <div className="container mx-auto  p-6  text-center ">
 
 
-                        <TitleMain>
-                            Calculate Your <br /> Business Setup Cost
-                        </TitleMain>
-                        <h3 className='text-center text-xl'>Which business activity are you looking for ?</h3>
-                        <select className='text-center drop-shadow w-4 h-1 border' name="Select" id="">
-                            <option value="" selected>1</option>
-                            <option value="" >1</option>
-                            <option value="">1</option>
-                            <option value="">1</option>
-                        </select>
-                        <BtnMain>
-                            Next
-                        </BtnMain>
 
-                    </div>
+                    <TitleMain>
+                        Calculate Your <br /> Business Setup Cost
+                    </TitleMain>
+                   <div className='flex flex-col items-center'>
+                   <h3 className='text-center text-xl pb-2'>Which business activity are you looking for ?</h3>
+                    <select name="bactivity" className="text-center p-3 border-2 outline-none" > <option value="" selected>Select a business activity</option> <option value="Advertising">Advertising</option> <option value="Architecture">Architecture</option> <option value="Business Consultancy">Business Consultancy</option> <option value="Design Services">Design Services</option> <option value="E-Commerce">E-Commerce</option> <option value="Event Management">Event Management</option> <option value="Fashion Design Consultancy">Fashion Design Consultancy</option> <option value="Food &amp; Beverage Trading">Food &amp; Beverage Trading</option> <option value="General Trading">General Trading</option> <option value="Human Resources Consultancy">Human Resources Consultancy</option> <option value="Interior Design">Interior Design</option> <option value="IT Consultancy">IT Consultancy</option> <option value="Lifestyle Consultancy">Lifestyle Consultancy</option> <option value="Management Consultancy">Management Consultancy</option> <option value="Marketing Services">Marketing Services</option> <option value="Media Services">Media Services</option> <option value="Online Education">Online Education</option> <option value="Other">Other</option> <option value="Photography Services">Photography Services</option> <option value="Production">Production</option> <option value="Project Management Consultancy">Project Management Consultancy </option> <option value="Public Relations">Public Relations</option> <option value="Publishing">Publishing</option> <option value="Recruitment Consultancy">Recruitment Consultancy</option> <option value="Software Development Management">Software Development Management </option> <option value="Sports Management">Sports Management</option> <option value="Tax Consultancy">Tax Consultancy</option> <option value="Training Services">Training Services</option> <option value="Video Services">Video Services</option> <option value="Wholesale of Household Goods">Wholesale of Household Goods </option> </select>
+                    <BtnMain>
+                        Next
+                    </BtnMain>
+
+                   </div>
+                </div>
             </div>
         </PageLayout>
 

@@ -61,6 +61,12 @@ const Menubar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-0">
         <div className="text-2xl font-bold">Logo</div>
         <div className="hidden md:flex justify-center space-x-4">
+            <Link href='/'><div className='flex flex-row'>
+                <i className="fa fa-users mx-1" aria-hidden="true"></i>
+                <span>Client Login</span>
+            </div></Link>
+            
+            
           {menus.map((menu, index) => (
             <div 
               key={index} 
