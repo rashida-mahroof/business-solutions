@@ -28,7 +28,7 @@ const topContents = [
 const brands = [
 
 ]
-function Home() {
+function Home({component}:any) {
     return (
 
         <PageLayout>
