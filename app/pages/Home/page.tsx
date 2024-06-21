@@ -111,13 +111,13 @@ function Home({ component }: any) {
                         </div>
 
                         <div className='w-full sm:w-1 md:w-1/2 px-4'>
-                            {/* <div className="flex flex-wrap mx-4">
+                            <div className="flex flex-wrap mx-4">
                                 {imageUrls.map((url, index) => (
                                     <div key={index} className="w-full sm:w-1/2 md:w-1/4 p-4 bg-white m-2">
                                         <Image src={url} alt={`Client ${index + 1}`} width={0} height={0} />
                                     </div>
                                 ))}
-                            </div> */}
+                            </div>
                         </div></div></div>
             </div>
             <div className='my-16'>
