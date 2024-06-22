@@ -39,10 +39,10 @@ function Home({ component }: any) {
                     Chose Your Jurisdiction
                 </TitleMain>
                 <div className="container mx-auto">
-                    <div className="flex flex-wrap -mx-4 ">
-                        <div className="flex flex-wrap -mx-4">
+                    <div className="flex flex-wrap  ">
+                        <div className="flex flex-wrap ">
                             {topContents.map((data, index) => (
-                                <div key={index} className="group transition-transform w-full sm:w-1/2 md:w-1/3 px-4 mb-2">
+                                <div key={index} className="group transition-transform w-full sm:w-1/2 md:w-1/3 px-lg sm:px-0 mb-2">
                                     <div className="relative overflow-hidden transit">
                                         <Image
                                             src={dubai}
@@ -66,7 +66,7 @@ function Home({ component }: any) {
             </div>
             <div className='my-16'>
                 <div className="container mx-auto">
-                    <div className="flex flex-wrap -mx-4">
+                    <div className="flex flex-wrap ">
                         <div className='w-full sm:w-1 md:w-1/3 px-4'>
                             <Image src={man} alt="" width={0}
                                 height={0}
