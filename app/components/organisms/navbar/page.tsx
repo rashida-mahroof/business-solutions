@@ -1,8 +1,8 @@
 import React from 'react'
 function NavBar() {
   return (
-    <div className="bg-gray-800 text-white p-1 flex flex-wrap items-center justify-between max-w-full container mx-auto">
-    <div className="flex items-center space-x-4  ">
+    <div className="bg-gray-800 text-white p-1 flex flex-wrap items-center lg:justify-between justify-end max-w-full container mx-auto">
+    <div className=" items-center space-x-4 text-xs hidden lg:flex">
       <div className="flex items-center space-x-2 flex-row">
         <span className="fa fa-at  text-3xl font-light"></span>
         <div className='flex-col' >

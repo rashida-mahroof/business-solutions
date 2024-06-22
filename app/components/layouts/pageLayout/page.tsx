@@ -14,7 +14,7 @@ function PageLayout({ children }: any) {
             {children}
             <Footer />
             <div className='flex flex-col'>
-                <div className='fixed z-50 right-5 bottom-16 w-12 h-12 flex flex-col'>
+                <div className='fixed z-50 right-5 bottom-16 w-14 h-14 flex flex-col'>
                     <Image className='mb-2' src={chatIcon} alt="" width={0}
                         height={0}
                         sizes="100vw" />
@@ -22,7 +22,7 @@ function PageLayout({ children }: any) {
                         height={0}
                         sizes="100vw" />
                 </div>
-                <div className=' fixed z-50 left-5 bottom-5 w-10 h-10 p-2 bg-white rounded-full drop-shadow'>
+                <div className=' fixed z-50 left-5 bottom-5 w-12 h-12 p-2 bg-white rounded-full drop-shadow'>
                     <Image src={quote} alt="" width={0}
                         height={0}
                         sizes="100vw" />
