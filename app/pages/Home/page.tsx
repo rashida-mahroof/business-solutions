@@ -33,37 +33,7 @@ function Home({ component }: any) {
 
         <PageLayout>
             <Banner />
-            <div className='my-16'>
-
-                <TitleMain>
-                    Chose Your Jurisdiction
-                </TitleMain>
-                <div className="container mx-auto">
-                    <div className="flex flex-wrap  ">
-                        <div className="flex flex-wrap ">
-                            {topContents.map((data, index) => (
-                                <div key={index} className="group transition-transform w-full sm:w-1/2 md:w-1/3 px-lg sm:px-0 mb-2">
-                                    <div className="relative overflow-hidden transit">
-                                        <Image
-                                            src={dubai}
-                                            alt={data.title}
-                                            width={0}
-                                            height={0}
-                                            className="h-auto transition-transform duration-500 transform group-hover:scale-110"
-                                        />
-                                        <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100">
-                                            {data.title}
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+           
             <div className='my-16'>
                 <div className="container mx-auto">
                     <div className="flex flex-wrap ">
@@ -90,6 +60,37 @@ function Home({ component }: any) {
 
                     </div></div>
             </div>
+            <div className='my-16'>
+
+<TitleMain>
+    Chose Your Jurisdiction
+</TitleMain>
+<div className="container mx-auto">
+    <div className="flex flex-wrap  ">
+        <div className="flex flex-wrap ">
+            {topContents.map((data, index) => (
+                <div key={index} className="group transition-transform w-full sm:w-1/2 md:w-1/3 px-lg sm:px-0 mb-2">
+                    <div className="relative overflow-hidden transit">
+                        <Image
+                            src={dubai}
+                            alt={data.title}
+                            width={0}
+                            height={0}
+                            className="h-auto transition-transform duration-500 transform group-hover:scale-110"
+                        />
+                        <div className="absolute w-full h-full inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold transition-all duration-500 opacity-100">
+                            {data.title}
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+
+    </div>
+
+</div>
+
+</div>
             <div className='my-16 '>
                 <div className="container mx-auto bg-gray-300 p-6 border-r-4 ">
                     <div className="flex flex-wrap mx-4">

@@ -48,9 +48,9 @@ const Menubar = () => {
     setOpenSubmenu(menu);
   };
 
-//   const handleMouseLeave = () => {
-//     setOpenSubmenu(null);
-//   };
+  const handleMouseLeave = () => {
+    setOpenSubmenu(null);
+  };
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -72,7 +72,7 @@ const Menubar = () => {
               key={index} 
               className="relative" 
               onMouseEnter={() => handleMouseEnter(menu.name)} 
-            //   onMouseLeave={handleMouseLeave}
+              onMouseLeave={handleMouseLeave}
             >
               <button className="hover:text-gray-400">{menu.name}</button>
               {menu.name !== "Contact Us" && openSubmenu === menu.name && (
